@@ -2,7 +2,7 @@ $(document).ready(() => {
   function sendFirstMail(data) {
     $("#container").empty().append("<h1 id='medium'>Envoi en cours</h1>");
     answer=data;
-try  {
+
     Email.send({
       SecureToken : "e7dcdd92-bc49-4c04-a079-d69f733ce285",
       To : "test5secondesmessenger@gmail.com",
@@ -37,9 +37,6 @@ try  {
         }
       }
     );
-  }catch (exception) {
-    alert(exception.name);
-  }
   }
 
   function sendSecondMail(data) {
@@ -221,7 +218,7 @@ try  {
                   <div class="rating">
                     <p>
                       <input type="radio" id="questionTwoROne" name="questionTwo" value="Très laide">
-                      <label for="questionTwoRTwo">Très laide</label>
+                      <label for="questionTwoROne">Très laide</label>
                     </p>
                       <input type="radio" id="questionTwoRTwo" name="questionTwo" value="Laide">
                       <label for="questionTwoRTwo">Laide</label>
