@@ -1,0 +1,115 @@
+* {
+  font-family: "Calibri";
+}
+
+#container {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+#flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#flex p {
+  width: 100%;
+}
+
+#flex textarea {
+  width: 90%;
+  max-width: 600PX;
+  height: 64px;
+}
+
+#messenger {
+  width: 38%;
+}
+
+#screenshot {
+  height: inherit;
+}
+
+.full {
+  width: auto;
+  height: 100%;
+  overflow: hidden !important;
+}
+
+#big, #medium{
+  margin: auto;
+  display: flex;
+  width: max-content;
+  align-items: center;
+  height: 100%;
+  font-size: 10em;
+}
+
+#big {
+  font-size: 10em;
+}
+
+#medium {
+  font-size: 2em;
+}
+
+
+#drawingContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1.5em;
+}
+
+.accept {
+  font-family: "Calibri";
+  color: white;
+  background-color: mediumseagreen;
+  border-radius: 20px;
+  border: none;
+  height: 64px;
+  transition: 1s;
+}
+
+.accept:hover {
+  background-color: seagreen;
+  transition: 1s;
+}
+
+.rating {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.options {
+  display: inline-block;
+  margin: 10px;
+}
+
+.header #sendDrawing {
+  float: right;
+  height: auto;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+#error {
+  color: red;
+}
