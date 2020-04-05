@@ -88,7 +88,7 @@ $(document).ready(() => {
               <p><textarea name="questionFive" id="questionFive"></textarea></p>
             </p>
             <p>
-              L'applcation vous a-t-elle paru claire ?
+              L'application vous a-t-elle paru claire ?
               <p><textarea name="questionSix" id="questionSix"></textarea></p>
             </p>
             <p>
