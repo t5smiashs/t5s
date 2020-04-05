@@ -358,10 +358,10 @@ $(document).ready(() => {
     sendThirdMail(`
     <p>Quel est, selon vous, l'objectif de cette application ? : ${$("#questionOne").val()}</p>
     <p>Quel est le nom de l'entreprise qui a réalisé cette application ? : ${$("#questionTwo").val()}</p>
-    <p>Quel est l'information la plus importante sur cette page ? : ${$("#questionThree").val()}</p>
-    <p>Qu'avez-vous remarqué en premier sur cette page ? Qu'avez-vous remarqué ensuite ? : ${$("#questionFour").val()}</p>
-    <p>Le site vous a-t-il paru digne de confiance ? : ${$("#questionFive").val()}</p>
-    <p>Le site vous a-t-il paru clair ? : ${$("#questionSix").val()}</p>
+    <p>Quel est l'information la plus importante sur cet écran ? : ${$("#questionThree").val()}</p>
+    <p>Qu'avez-vous remarqué en premier sur cet écran? Qu'avez-vous remarqué ensuite ? : ${$("#questionFour").val()}</p>
+    <p>L'application vous a-t-elle paru digne de confiance ? : ${$("#questionFive").val()}</p>
+    <p>L'application vous a-t-il paru claire ? : ${$("#questionSix").val()}</p>
     <p>Que feriez vous pour améliorer l'application ? : ${$("#questionSeven").val()}</p>`);
   });
 
