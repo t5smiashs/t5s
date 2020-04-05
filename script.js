@@ -189,27 +189,65 @@ $(document).ready(() => {
                 <h2>Les 5 secondes sont terminées. Vous pouvez désormais répondre aux questions.</h2>
                 <p><span style="color:red">* = question obligatoire</span></p>
                 <p>
+                  Vous êtes ? <span style="color:red">*</span>
+                  <div class="rating">
+                    <p>
+                      <input type="radio" id="questionOneROne" name="questionOne" value="Homme">
+                      <label for="questionOneROne">Homme</label>
+                    </p>
+                    <p>
+                      <input type="radio" id="questionOneRTwo" name="questionOne" value="Femme">
+                      <label for="questionOneRTwo">Femme</label>
+                    </p>
+                    <p>
+                      <input type="radio" id="questionOneRThree" name="questionOne" value="Je ne souhaite pas le préciser">
+                      <label for="questionOneRThree">Je ne souhaite pas le préciser</label>
+                    </p>
+                  </div>
+                </p>
+                <p>
+                  Quel est votre âge ? <span style="color:red">*</span>
+                  <div class="rating">
+                    <p>
+                      <input type="radio" id="questionTwoROne" name="questionTwo" value="Moins de 18 ans">
+                      <label for="questionTwoROne">Moins de 18 ans</label>
+                    </p>
+                    <p>
+                      <input type="radio" id="questionTwoRTwo" name="questionTwo" value="18-25 ans">
+                      <label for="questionTwoRTwo">18-25 ans</label>
+                    </p>
+                    <p>
+                      <input type="radio" id="questionTwoRThree" name="questionTwo" value="26-40 ans">
+                      <label for="questionTwoRThree">26-40 ans</label>
+                    </p>
+                    <p>
+                      <input type="radio" id="questionTwoRFour" name="questionTwo" value="Plus de 40 ans">
+                      <label for="questionTwoRFour">Plus de 40 ans</label>
+                    </p>
+                  </div>
+                </p>
+                <p>
                   Quelle est votre impression générale vis-à-vis de cet écran ? <span style="color:red">*</span>
                   <div class="rating">
                     <p>
-                      <input type="radio" id="questionOneROne" name="questionOne" value="Très mauvaise">
-                      <label for="questionOneROne">Très mauvaise</label>
+                      <input type="radio" id="questionThreeROne" name="questionThree" value="Très mauvaise">
+                      <label for="questionThreeROne">Très mauvaise</label>
                     </p>
                     <p>
-                      <input type="radio" id="questionOneRTwo" name="questionOne" value="Mauvaise">
-                      <label for="questionOneRTwo">Mauvaise</label>
+                      <input type="radio" id="questionThreeRTwo" name="questionThree" value="Mauvaise">
+                      <label for="questionThreeRTwo">Mauvaise</label>
                     </p>
                     <p>
-                      <input type="radio" id="questionOneRThree" name="questionOne" value="Moyenne">
-                      <label for="questionOneRThree">Moyenne</label>
+                      <input type="radio" id="questionThreeRThree" name="questionThree" value="Moyenne">
+                      <label for="questionThreeRThree">Moyenne</label>
                     </p>
                     <p>
-                      <input type="radio" id="questionOneRFour" name="questionOne" value="Bonne">
-                      <label for="questionOneRFour">Bonne</label>
+                      <input type="radio" id="questionThreeRFour" name="questionThree" value="Bonne">
+                      <label for="questionThreeRFour">Bonne</label>
                     </p>
                     <p>
-                      <input type="radio" id="questionOneRFive" name="questionOne" value="Très bonne">
-                      <label for="questionOneRFive">Très bonne</label>
+                      <input type="radio" id="questionThreeRFive" name="questionThree" value="Très bonne">
+                      <label for="questionThreeRFive">Très bonne</label>
                     </p>
                   </div>
                 </p>
@@ -217,27 +255,27 @@ $(document).ready(() => {
                   Comment jugez-vous l'esthétique de cet écran ? <span style="color:red">*</span>
                   <div class="rating">
                     <p>
-                      <input type="radio" id="questionTwoROne" name="questionTwo" value="Très laide">
-                      <label for="questionTwoROne">Très laide</label>
+                      <input type="radio" id="questionFourROne" name="questionFour" value="Très laide">
+                      <label for="questionFourROne">Très laide</label>
                     </p>
-                      <input type="radio" id="questionTwoRTwo" name="questionTwo" value="Laide">
-                      <label for="questionTwoRTwo">Laide</label>
+                      <input type="radio" id="questionFourRTwo" name="questionFour" value="Laide">
+                      <label for="questionFourRTwo">Laide</label>
                     </p>
-                      <input type="radio" id="questionTwoRThree" name="questionTwo" value="Neutre">
-                      <label for="questionTwoRThree">Neutre</label>
+                      <input type="radio" id="questionFourRThree" name="questionFour" value="Neutre">
+                      <label for="questionFourRThree">Neutre</label>
                     </p>
-                      <input type="radio" id="questionTwoRFour" name="questionTwo" value="Belle">
-                      <label for="questionTwoRFour">Belle</label>
+                      <input type="radio" id="questionFourRFour" name="questionFour" value="Belle">
+                      <label for="questionFourRFour">Belle</label>
                     </p>
-                      <input type="radio" id="questionTwoRFive" name="questionTwo" value="Très belle">
-                      <label for="questionTwoRFive">Très belle</label>
+                      <input type="radio" id="questionFourRFive" name="questionFour" value="Très belle">
+                      <label for="questionFourRFive">Très belle</label>
                     </p>
                   </div>
                 </p>
                 <p>
                   Quel est selon-vous, l'objectif principal de cette application ? <span style="color:red">*</span>
                   <p>
-                    <textarea id="questionThree" name="questionThree"></textarea>
+                    <textarea id="questionFive" name="questionFive"></textarea>
                   </p>
                 </p>
                 <button class="accept" id="sendFirstAnswers">Envoyer</button>
@@ -263,19 +301,19 @@ $(document).ready(() => {
           <p><textarea name="questionTwo" id="questionTwo"></textarea></p>
         </p>
         <p>
-          Quel est l'information la plus importante sur cette page ?
+          Quel est l'information la plus importante sur cet écran ?
           <p><textarea name="questionThree" id="questionThree"></textarea></p>
         </p>
         <p>
-          Qu'avez-vous remarqué en premier sur cette page ? Qu'avez-vous remarqué ensuite ?
+          Qu'avez-vous remarqué en premier sur cet écran ? Qu'avez-vous remarqué ensuite ?
           <p><textarea name="questionFour" id="questionFour"></textarea></p>
         </p>
         <p>
-          Le site vous a-t-il paru digne de confiance ?
+          L'application vous a-t-elle paru digne de confiance ?
           <p><textarea name="questionFive" id="questionFive"></textarea></p>
         </p>
         <p>
-          Le site vous a-t-il paru clair ?
+          L'application vous a-t-il paru claire ?
           <p><textarea name="questionSix" id="questionSix"></textarea></p>
         </p>
         <p>
@@ -287,10 +325,13 @@ $(document).ready(() => {
   });
 
   $(document).on("click","#sendFirstAnswers", () => {
-    if ($("input:checked").length===2 && $("#questionThree").val()!=="") {
-      sendFirstMail(`<p>Quelle est votre impression générale vis-à-vis de cet écran ? : ${$("input[name='questionOne']:checked").val()}</p>
-      <p>Comment jugez-vous l'esthétique de cet écran ? : ${$("input[name='questionTwo']:checked").val()}</p>
-      <p>Quel est selon-vous, l'objectif principal de cette application ? : ${$("#questionThree").val()}</p>`);
+    if ($("input:checked").length===4 && $("#questionFive").val()!=="") {
+      sendFirstMail(`
+      <p>Vous êtes ? : ${$("input[name='questionOne']:checked").val()}</p>
+      <p>Quel est votre âge ? : ${$("input[name='questionTwo']:checked").val()}</p>
+      <p>Quelle est votre impression générale vis-à-vis de cet écran ? : ${$("input[name='questionThree']:checked").val()}</p>
+      <p>Comment jugez-vous l'esthétique de cet écran ? : ${$("input[name='questionFour']:checked").val()}</p>
+      <p>Quel est selon-vous, l'objectif principal de cette application ? : ${$("#questionFive").val()}</p>`);
     }
     else if (!$("#error").length) {
       $("#container").append("<div id='error'>Les réponses aux trois questions doivent être renseignées</div>");
