@@ -32,7 +32,13 @@
 }
 
 #messenger {
-  width: 38%;
+  width: 100%;
+  max-width: 500px;
+}
+
+#loading {
+  width: 48px;
+  height: 48px;
 }
 
 #screenshot {

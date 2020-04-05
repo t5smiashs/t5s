@@ -1,6 +1,6 @@
 $(document).ready(() => {
   function sendFirstMail(data) {
-    $("#container").empty().append("<h1 id='medium'>Envoi en cours</h1>");
+    $("#container").empty().append("<h1 id='medium'><img src='loading.gif' id='loading' alt='' />Envoi en cours</h1>");
     answer=data;
 
     Email.send({
@@ -42,7 +42,7 @@ $(document).ready(() => {
   function sendSecondMail(data) {
     $("#drawingApp").empty();
     $("#container").empty();
-    $("body").append("<div id='container'><h1 id='medium'>Envoi en cours</h1></div");
+    $("body").append("<div id='container'><h1 id='medium'><img src='loading.gif' id='loading' alt='' />Envoi en cours</h1></div");
     answer=data;
 
     Email.send({
@@ -123,7 +123,7 @@ $(document).ready(() => {
       concat+=$(this).val();
     });
 
-    $("#container").empty().append("<h1 id='medium'>Envoi en cours</h1>");
+    $("#container").empty().append("<h1 id='medium'><img src='loading.gif' id='loading' alt='' />Envoi en cours</h1>");
     answer=data;
 
     if (concat!=="") {
