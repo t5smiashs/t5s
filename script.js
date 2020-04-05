@@ -76,19 +76,19 @@ $(document).ready(() => {
               <p><textarea name="questionTwo" id="questionTwo"></textarea></p>
             </p>
             <p>
-              Quel est l'information la plus importante sur cette page ?
+              Quel est l'information la plus importante sur cet écran ?
               <p><textarea name="questionThree" id="questionThree"></textarea></p>
             </p>
             <p>
-              Qu'avez-vous remarqué en premier sur cette page ? Qu'avez-vous remarqué ensuite ?
+              Qu'avez-vous remarqué en premier sur cette application ? Qu'avez-vous remarqué ensuite ?
               <p><textarea name="questionFour" id="questionFour"></textarea></p>
             </p>
             <p>
-              Le site vous a-t-il paru digne de confiance ?
+              L'application vous a-t-elle paru digne de confiance ?
               <p><textarea name="questionFive" id="questionFive"></textarea></p>
             </p>
             <p>
-              Le site vous a-t-il paru clair ?
+              L'applcation vous a-t-elle paru claire ?
               <p><textarea name="questionSix" id="questionSix"></textarea></p>
             </p>
             <p>
@@ -359,9 +359,9 @@ $(document).ready(() => {
     <p>Quel est, selon vous, l'objectif de cette application ? : ${$("#questionOne").val()}</p>
     <p>Quel est le nom de l'entreprise qui a réalisé cette application ? : ${$("#questionTwo").val()}</p>
     <p>Quel est l'information la plus importante sur cet écran ? : ${$("#questionThree").val()}</p>
-    <p>Qu'avez-vous remarqué en premier sur cet écran? Qu'avez-vous remarqué ensuite ? : ${$("#questionFour").val()}</p>
+    <p>Qu'avez-vous remarqué en premier sur cet écran ? Qu'avez-vous remarqué ensuite ? : ${$("#questionFour").val()}</p>
     <p>L'application vous a-t-elle paru digne de confiance ? : ${$("#questionFive").val()}</p>
-    <p>L'application vous a-t-il paru claire ? : ${$("#questionSix").val()}</p>
+    <p>L'application vous a-t-elle paru claire ? : ${$("#questionSix").val()}</p>
     <p>Que feriez vous pour améliorer l'application ? : ${$("#questionSeven").val()}</p>`);
   });
 
